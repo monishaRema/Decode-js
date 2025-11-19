@@ -1,10 +1,10 @@
 # 🧩 Decode-JS
 
-> **Decoding JavaScript — one concept, one day, one mental model at a time.**
+**Decoding JavaScript — one concept, one day, one mental model at a time.**
 
 ---
 
-## 🧠 About this project
+## About this project
 
 **Decode-JS** is a personal 60-day journey into the internals of JavaScript.  
 Each day explores one concept — explained in plain English, visualized with analogies, and proven through real code.  
@@ -12,7 +12,7 @@ The goal isn’t memorization; it’s to understand how the JavaScript engine ac
 
 ---
 
-## 📘 Table of Contents
+## Table of Contents
 
 <table>
   <thead>
@@ -61,9 +61,11 @@ The goal isn’t memorization; it’s to understand how the JavaScript engine ac
 
 <a href="#day-2">Day 2 – Variable Environment & Lexical Scope</a>
 
+<a href="#Day-3">Day 3 – Call Stack</a>
+
 ---
 
-<h3 id="day-1">🧠 Day 1 – Execution Context</h3>
+<h3 id="day-1">Day 1 – Execution Context</h3>
 
 **Definition**  
 An execution context is the environment where JavaScript code is evaluated and executed.
@@ -153,7 +155,8 @@ Scope chains determine which variable you access when multiple exist with the sa
 
 Lexical scope is fixed when you write the function, not when you call it.
 
-### 🧱 Day 3 – Call Stack
+<h3 id="Day-3">🧱 Day 3 – Call Stack</h3>
+
 **Definition**
 
 The call stack keeps track of which function is currently running and where to return after it finishes.
